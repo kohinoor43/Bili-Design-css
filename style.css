@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*{
+    margin: 0 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+    
+body{ 
+    background: #f8f8f8;
+    padding-top: 4rem;
+}
+.project-board{
+width: 80%;
+height: auto;
+border:2px solid #d7d7d7;
+border-radius: 0.7rem;
+background-color: white;
+margin: 0 auto;
+padding: 2rem;
+
+}
+
+.project-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid #f7f7f7;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.left-list{
+    width:fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: center;
+}
+.top-leftlist{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.6rem;
+}
+
+.title-con{
+    width: fit-content;
+    height: auto;
+}
+.title-con h1{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1d1d1d;
+    letter-spacing: 0.2px;
+}
+
+.smallbutton-con{
+    width: fit-content;
+    height: auto;
+    padding: 0.2rem 0.5rem;
+    background-color: #eefff6;
+    border-radius: 0.5rem;
+    border: 1px solid #48b389;
+}
+.smallbutton-con p{
+    font-size: 0.8rem;
+    color: #2c7f5c;
+}
+
+.buttom-leftlist{
+    width: fit-content;
+    height: auto;
+}
+
+.buttom-card-text{
+    width: fit-content;
+    height: auto;
+}
+
+.buttom-card-text p{
+    font-size: 0.8rem;
+    color: #9b9b9b;
+}
+
+.right-list{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-button{
+    width: fit-content;
+    height: auto;
+}
+
+.right-button button{
+    background-color: white;
+    border: 2px solid #e3e3e3;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.icon-container{
+    width: auto;
+}
+
+.icon-container img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.new-badge{
+    background-color: #e3e3e3;
+    border: 2px solid lightgrey;
+    color: #9b9b9b;
+}
+
+.border{
+    border: none;
+}
+
+@media (max-width:768px)
+{
+    .project-board{
+        width: 94%;
+        height: auto;
+        border:2px solid #d7d7d7;
+        border-radius: 0.7rem;
+        background-color: white;
+        margin: 0 auto;
+        padding: 2rem;}
+
+    .right-button{
+        display: none;
+    }
+
+}
